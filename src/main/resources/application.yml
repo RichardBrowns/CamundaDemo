@@ -1,0 +1,13 @@
+server:
+  port: 8080
+
+#Camunda配置
+camunda:
+  bpm:
+    admin-user:
+      id: admin
+      password: admin
+      firstName: Camunda
+    filter:
+      create: All tasks
+
